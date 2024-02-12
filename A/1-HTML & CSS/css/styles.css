@@ -1,0 +1,29 @@
+/*
+
+FEUILLE DE STYLE EXTERNE :
+regle css:
+selecteur{
+    proprite :valeur
+    proprite :valeur
+
+        }
+*/
+
+
+.list{
+
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    margin: 20px;
+    padding: auto;
+    height: 50px;
+    overflow: auto;
+
+}
+.list > span {
+   
+    display: block;
+   
+    margin-block: 5px;
+}

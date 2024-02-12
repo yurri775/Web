@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple 1 HTML & CSS</title>
+
+    <!--feuille de style interne-->
+    <style>
+          /* redéfinition du style des balise */
+        /* Règle CSS */
+        h2 {
+            color: navy; /* propriété: valeur; */
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 30px;
+            font-family: 'Segoe UI';
+            text-align: center;
+            font-size: 24px;
+        }
+         /* Création d'une classe de styles */
+        /* Une autre règle CSS */
+        .menu {
+            background-color: azure;
+            font-family: Consolas;
+            font-size: 16px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 0px;
+            padding-right: 0px;
+            box-shadow: 2px 2px 10px gray;
+        }
+        /* Un selecteur de fils direct */
+        .menu > span {
+            padding: 5px 10px 5px 10px;
+            border-right: 1px solid rgba(0, 0, 128, 0.306);
+            cursor: pointer;
+            
+           
+        }
+
+        .menu > span:hover {
+            background-color: rgba(145, 255, 0, 0.277);
+            border: solid 1px gray;
+            border-radius: 5px;
+        }
+
+
+
+        
+    </style>
+    <!--feuille de styles externes -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+
+    
+    
+</head>
+<body>
+    <!-- style local en utilisant l'attribut 'style' -->
+    <h1 style="color: blue;text-decoration: underline; font-family: Arial;">Exemple 1 HTML & CSS</h1>
+    <h2>Réalisation d'un Menu</h2>
+  
+     <!-- On va utiliser la balise de block div qui est une balise neutre
+        ainsi que la balise span qui est une balise en ligne
+    -->
+    <nav class="menu">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Node.js</span>
+        <span>PHP</span>
+        <span>REACT</span>
+    </nav>
+    <h2>
+        EXEMPLE 2 : liste item's
+    </h2>
+
+    <div class="list">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Node.js</span>
+        <span>PHP</span>
+        <span>REACT</span>
+    </div>
+
+   
+   
+</body>
+</html>
